@@ -23,11 +23,9 @@ import {
   getDocs,
 } from "firebase/firestore";
 
-const { REACT_APP_API_KEY } = process.env;
-
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyBcdj-8c-U7-2cTCwBIryJp6iIAgIJMXds",
+  apiKey: process.env.REACT_APP_API_KEY,
   authDomain: "crwn-clothing-db-aaced.firebaseapp.com",
   projectId: "crwn-clothing-db-aaced",
   storageBucket: "crwn-clothing-db-aaced.appspot.com",
