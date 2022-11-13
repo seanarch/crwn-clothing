@@ -25,7 +25,7 @@ import {
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: process.env.REACT_APP_API_KEY,
+  apiKey: "AIzaSyBcdj-8c-U7-2cTCwBIryJp6iIAgIJMXds",
   authDomain: "crwn-clothing-db-aaced.firebaseapp.com",
   projectId: "crwn-clothing-db-aaced",
   storageBucket: "crwn-clothing-db-aaced.appspot.com",
