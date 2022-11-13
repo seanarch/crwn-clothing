@@ -23,6 +23,8 @@ import {
   getDocs,
 } from "firebase/firestore";
 
+const { REACT_APP_API_KEY } = process.env;
+
 // Your web app's Firebase configuration
 const firebaseConfig = {
   apiKey: "AIzaSyBcdj-8c-U7-2cTCwBIryJp6iIAgIJMXds",
@@ -31,6 +33,13 @@ const firebaseConfig = {
   storageBucket: "crwn-clothing-db-aaced.appspot.com",
   messagingSenderId: "234043140964",
   appId: "1:234043140964:web:65816973356d63f4b46871",
+
+  // apiKey: process.env.API_KEY,
+  // authDomain: process.env.AUTH_DOMAIN,
+  // projectId: process.env.PROJECT_ID,
+  // storageBucket: process.env.STORAGE_BUCKET,
+  // messagingSenderId: process.env.MESSAGING_SENDER_ID,
+  // appId: process.env.APP_ID,
 };
 
 // Initialize Firebase
